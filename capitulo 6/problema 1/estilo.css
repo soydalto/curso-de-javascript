@@ -1,0 +1,61 @@
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: #333;
+	font-family: sans-serif;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.flex-item {
+	flex-grow: 1;
+	margin: 20px;
+	max-width: 300px;
+	border: 2px solid #333;
+	padding: 0 20px;
+}
+
+.flex-item:hover {
+	border-color: #71a154;
+	box-shadow: 0px 0px 30px #317124
+}
+.flex-item:focus {
+	border-color: #71a154;
+	box-shadow: 0px 0px 30px #317124
+}
+
+h2,h3 {
+	margin: 0;
+}
+
+h3 {
+	color: #999
+}
+
+p b {
+	color: #71a154
+}
+
+.llave-img {
+	width: 300px;
+}
+
+
+form {
+	width: 100%;
+	text-align: center;
+	padding: 50px;
+}
+
+input[type="submit"]{
+	background: #71a154;
+	color: #fff;
+	border: none;
+	padding: 12px 36px;
+	font-size: 17px;
+	letter-spacing: 1px
+}
