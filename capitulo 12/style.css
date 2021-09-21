@@ -1,0 +1,17 @@
+body{
+    font-family: sans-serif;
+}
+.subjects{
+    padding: 10px;
+    background-color: whitesmoke;
+}
+.subject{
+    position: relative;
+    width: 80%;
+    display: inline-block;
+}
+.score{
+    position: relative;
+    display: inline-block;
+    width: 19%;
+}
