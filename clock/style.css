@@ -1,0 +1,15 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+.clock{
+    background: linear-gradient(red,tomato);
+    display: inline-flex;
+    border-radius: 10px;
+}
+.clock div{
+    color: whitesmoke;
+    font-size: 2em;
+    padding: 8px;
+    font-family: monospace;
+}
