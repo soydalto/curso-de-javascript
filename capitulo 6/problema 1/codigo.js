@@ -21,7 +21,7 @@ for (var i = 1; i <= 20; i++) {
     });
     div.tabIndex = i;
     div.classList.add(`item-${i}`,'flex-item');
-    div.innerHTML = ...llave;
+    div.innerHTML = [...llave];
 	documentFragment.appendChild(div);
 }
 
